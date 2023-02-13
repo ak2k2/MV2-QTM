@@ -3,7 +3,7 @@ The velocity of money implied by QTM can be expressed as:
 
 $$ V=\frac{PT}{M} $$
 
-- Where: 
+Where: 
 
 * $M$ is the Money Supply from (M2SL.csv)
 * $V$ is Velocity of Money
