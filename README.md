@@ -19,7 +19,7 @@ This repository contains code and data to compare the velocity of M2 money stock
 * [CPI](https://fred.stlouisfed.org/series/CPIAUCSL)
 * [GDP](https://fred.stlouisfed.org/series/GDP)
 
-## Results
+## Misc.
 The results of the comparison show that FRED's M2V series does not take into account the velocity of money outside of the M2 money stock.
 
-For more information on the quantity theory of money, please visit [Investopedia](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/).
+Sources [Investopedia](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/).
