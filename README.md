@@ -14,12 +14,12 @@ The data used in this repository includes FRED's M2V series, CPI, and GDP.
 
 where:
 
-* M = Money Supply
+* M = Money Supply from (M2SL.csv)
 * V = Velocity of Money
-* P = Price Level
-* T = Real Output (GDP)
+* P = Price Level (CPI) 
+* T = Volume of Transactions (GDP)
 
-Creates a dataframe with CPI, GDP, and M2 columns and then calculates the velocity of money by dividing CPI * GDP by M2. The calculated velocity is then compared to FRED's Velocity of M2 Money Stock.
+Creates a dataframe with CPI, GDP, and M2 columns and then calculates the velocity of money by dividing CPI * GDP by M2. The calculated velocity is then compared to FRED's Velocity => the M2 Money Stock.
 
 ## Results
 
