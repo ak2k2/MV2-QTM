@@ -24,3 +24,5 @@ Creates a dataframe with CPI, GDP, and M2 columns and then calculates the veloci
 ## Results
 
 The results of the analysis show that the velocity of money implied by QTM is generally close to FRED's Velocity of M2 Money Stock, but there are some discrepancies. In particular, the velocity implied by QTM is often higher than FRED's velocity. This could be due to a number of factors, such as the fact that FRED's M2V series does not take into account the velocity of money outside of the M2 money stock.
+
+[source](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/)
