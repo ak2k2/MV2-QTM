@@ -27,7 +27,7 @@ The trailing mean squared error (MSE) of QTM vs M2V is
 
 $$ MSE = \frac{1}{N}\sum_{i=1}^{N}{\left(V_{QTM} - V_{M2V}\right)^2} $$
 
-* Almost consistently increasing, sugggesting that QTM models ability to explain effects in M2V is diminshing.
+Almost consistently increasing, sugggesting that QTM models ability to explain effects in M2V is diminshing.
 
 ## SOURCES 
 [what-is-the-quantity-theory-of-money](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/).
