@@ -1,6 +1,6 @@
 ## Armaan Kapoor, Quantity Theory of Money vs M2V
 # Velocity of Money
-The velocity of money implied by QTM can be expressed as:
+Implied by QTM:
 
 $$ V=\frac{PT}{M} $$
 
@@ -11,8 +11,9 @@ Where:
 * $P$ is the Price Level (CPI) 
 * $T$ is the Volume of Transactions (GDP)
 
+
 ## DATA
-This repository contains code and data to compare the velocity of M2 money stock (FRED's M2V series) to the theoretical velocity of money implied by the quantity theory of money (QTM).
+Compare the velocity of M2 money stock (FRED's M2V series) to the theoretical velocity of money implied by the quantity theory of money (QTM).
 
 'MV2-QTM/data' contains FRED's M2V series, CPI, and GDP.
 
@@ -20,7 +21,7 @@ This repository contains code and data to compare the velocity of M2 money stock
 * [CPI](https://fred.stlouisfed.org/series/CPIAUCSL)
 * [GDP](https://fred.stlouisfed.org/series/GDP)
 
-## MISC.
+## MSE
 
 The trailing mean squared error (MSE) of QTM vs M2V is 
 
