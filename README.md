@@ -21,11 +21,10 @@ This repository contains code and data to compare the velocity of M2 money stock
 
 ## MISC.
 
-The mean squared error (MSE) of QTM vs M2V is calculated as follows:
+The trailing mean squared error (MSE) of QTM vs M2V, 
 
 $$ MSE = \frac{1}{N}\sum_{i=1}^{N}{\left(V_{QTM} - V_{M2V}\right)^2} $$
 
-Where: 
-
+in increasing, sugggesting that QTM models ability to explain effects in M2V is diminshing.
 
 * SOURCES [what-is-the-quantity-theory-of-money](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/).
