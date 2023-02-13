@@ -4,7 +4,7 @@ This repository contains code and data to compare the velocity of M2 money stock
 
 ## Sample Space
 
-/data contains FRED's M2V series, CPI, and GDP.
+'MV2-QTM/data' contains FRED's M2V series, CPI, and GDP.
 
 * [M2V](https://fred.stlouisfed.org/series/M2V)
 * [CPI](https://fred.stlouisfed.org/series/CPIAUCSL)
