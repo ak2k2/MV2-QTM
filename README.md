@@ -21,8 +21,13 @@ This repository contains code and data to compare the velocity of M2 money stock
 
 ## MISC.
 
-$$MSE=\frac{1}{N}\sum_{i=1}^{N}(y_{i}-\hat{y_{i}})^2$$
+The mean squared error (MSE) of QTM vs M2V is calculated as follows:
 
-where $y_{i}$ is the true value and $\hat{y}_{i}$ is the predicted value for the $i$th observation, and $N$ is the total number of observations.
+$$ MSE = \frac{1}{N}\sum_{i=1}^{N}{\left(V_{QTM} - V_{M2V}\right)^2} $$
 
+Where: 
+
+* $V_{QTM}$ is the velocity of money implied by the quantity theory of money (QTM)
+* $V_{M2V}$ is FRED's Velocity of M2 Money Stock
+* $N$ is the number of observations
 Sources [Investopedia](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/).
