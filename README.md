@@ -1,3 +1,4 @@
+## Armaan
 # Velocity of Money
 The velocity of money implied by QTM can be expressed as:
 
