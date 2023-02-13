@@ -10,19 +10,19 @@ This repository contains code and data to compare the velocity of M2 money stock
 * [CPI](https://fred.stlouisfed.org/series/CPIAUCSL)
 * [GDP](https://fred.stlouisfed.org/series/GDP)
 
-## MV = PT
-
-where:
-
+## QTM => MV = PT
 * M = Money Supply from (M2SL.csv)
 * V = Velocity of Money
 * P = Price Level (CPI) 
 * T = Volume of Transactions (GDP)
 
-Creates a dataframe with CPI, GDP, and M2 columns and then calculates the velocity of money by dividing CPI * GDP by M2. The calculated velocity is then compared to FRED's Velocity => the M2 Money Stock.
+Creates a dataframe with CPI, GDP, and M2 columns and then calculates the velocity of money (V=PT/M) by normalizing and then taking (CPI x GDP / M2SL).
 
 ## Results
 
-The results of the analysis show that the velocity of money implied by QTM is generally close to FRED's Velocity of M2 Money Stock, but there are some discrepancies. In particular, the velocity implied by QTM is often higher than FRED's velocity. FRED's M2V series does not take into account the velocity of money outside of the M2 money stock so this comparison is very is loose to begin with.
+The velocity of money implied by QTM is compared with FRED's Velocity of M2 Money Stock
+
+* FRED's M2V series does not take into account the velocity of money outside of the M2 money stock.
+
 
 [quantity-theory-of-money](https://www.investopedia.com/insights/what-is-the-quantity-theory-of-money/)
